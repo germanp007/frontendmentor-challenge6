@@ -8,9 +8,11 @@ import TextComponent from "./components/TextComponent";
 import HeroComponent from "./components/HeroComponent";
 import Article from "./components/Article";
 import Testimonials from "./components/Testimonials";
+import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 const App = () => {
   return (
-    <main>
+    <>
       <section
         className="h-[80vh] bg-cover bg-no-repeat text-[18px] font-Barlow"
         style={{ backgroundImage: `url(${orange})` }}
@@ -53,8 +55,14 @@ const App = () => {
           image={tangerine}
         />
       </section>
+
       <Testimonials />
-    </main>
+
+      <section>
+        <Gallery />
+      </section>
+      <Footer />
+    </>
   );
 };
 

@@ -29,7 +29,7 @@ const clients = [
 
 const Testimonials = () => {
   return (
-    <section className="text-center h-[110vh] font-Barlow">
+    <section className="text-center min-h-screen font-Barlow">
       <h1 className="mt-[50px] mb-[20px] uppercase font-Fraunces tracking-widest text-Grayish-blue">
         Client Testimonials
       </h1>
