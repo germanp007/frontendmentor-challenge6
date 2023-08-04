@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        mobile: "500px",
+        tablet: "720px",
+      },
       colors: {
         "Soft-red": "hsl(7, 99%, 70%)",
         Yellow: "hsl(51, 100%, 49%)",

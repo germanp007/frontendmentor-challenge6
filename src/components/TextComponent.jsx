@@ -1,6 +1,8 @@
-const TextComponent = ({ title, text, color }) => {
+const TextComponent = ({ title, text, color, order }) => {
   return (
-    <div className="h-[60vh] text-center flex flex-col justify-evenly">
+    <div
+      className={`h-[60vh] text-center flex flex-col justify-evenly ${order}`}
+    >
       <h1 className="text-Very-dark-desaturated-blue font-Fraunces mt-4 text-[2.2rem] font-extrabold">
         {" "}
         {title}
