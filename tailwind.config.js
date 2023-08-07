@@ -6,6 +6,7 @@ export default {
       screens: {
         mobile: "500px",
         tablet: "720px",
+        desktop: "1100px",
       },
       colors: {
         "Soft-red": "hsl(7, 99%, 70%)",
