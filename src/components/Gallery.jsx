@@ -22,7 +22,7 @@ const Gallery = () => {
     };
   }, []);
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 max-h-[60vh]">
+    <div className="grid grid-cols-2 md:grid-cols-4 min-h-[60vh] w-full">
       <img
         src={windowWidth >= 760 ? image2Desktop : image2}
         alt={image2}
