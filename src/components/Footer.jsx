@@ -2,7 +2,7 @@ import Logo from "./Logo";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#90d4c6] w-full h-[60vh] font-Barlow flex flex-col justify-evenly md:h-[30vh]">
+    <footer className="bg-[#90d4c6] w-full h-[60vh] font-Barlow flex flex-col justify-evenly md:h-[35vh]">
       <Logo fill="fill-Dark-desaturated-cyan" />
       <div className="flex place-content-evenly  text-Dark-desaturated-cyan md:w-[400px] mx-auto">
         <h4 className="cursor-pointer hover:text-white"> About</h4>
